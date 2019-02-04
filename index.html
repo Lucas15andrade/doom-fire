@@ -1,9 +1,43 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt">
   <head>
+      <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Doom Fire</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 1px solid #000;
+        }
+        td {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #000;
+            text-align: center;
+            vertical-align: center;
+            font-display: monospace;
+            font-size: 18px;
+            position: relative;
+        }
+        .pixel-indice {
+            font-size: 10px;
+            display: inline-block;
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            color: #999
+        }
+        td.pixel {
+            width: 4;
+            height: 4;
+            border: 0;
+        }
+    </style>
   </head>
   <body>
-        <script src="fire.js"></script>
+    <div id="fogo"></div>  
+    <script src="fire.js"></script>
   </body>
 </html>
